@@ -4,12 +4,17 @@
     padding: 0;
     font-family:'Courier New', Courier, monospace;
 }
+
+body{
+    height: 100vh;
+}
+
 header{
     background-color: #000000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 100px;
+    height: 13%;
 }
 .aNav{
     font-size: 22px;
@@ -21,11 +26,11 @@ header{
     transition: transform 0.5s ease, color 0.5s ease;
 }
 .aNav:hover{
-    transform: scale(1.8) rotate(360deg);
+    transform: scale(1.8);
     color: #08fc4b;
 }
 .cuerpo{
-    height: 560px;
+    height: 75%;
     background-color: #222233;
     display: flex;
     justify-content: center;
@@ -43,6 +48,7 @@ header{
     h1.cont{
         font-size: 40px;
         margin-bottom: 40px;
+        color: #A6A6A6;
     }
         div.contProj{
             display: flex;
@@ -98,7 +104,7 @@ header{
 
 
 footer{
-    height: 60px;
+    height: 12%;
     display: flex;
     background-color: #000000;
 }
